@@ -36,6 +36,7 @@ const SpriteSelectorItem = props => (
                 url={props.costumeURL}
                 width={32}
             />
+            
         ) : null}
         <div className={styles.spriteName}>{props.name}</div>
         <ContextMenu id={`${props.name}-${contextMenuId++}`}>

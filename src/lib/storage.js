@@ -21,10 +21,16 @@ class Storage extends ScratchStorage {
                     `${PROJECT_SERVER}/internalapi/project/${projectId}/get/`;
             }
         );
+        // this.addWebSource(
+        //     [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
+        //     asset => `${ASSET_SERVER}/internalapi/asset/${asset.assetId}.${asset.dataFormat}/get/`
+        // );
+
         this.addWebSource(
             [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
-            asset => `${ASSET_SERVER}/internalapi/asset/${asset.assetId}.${asset.dataFormat}/get/`
+            asset => `http://chatbot.drsotong.com/${asset.assetId}.${asset.dataFormat}`
         );
+
         defaultProjectAssets.forEach(asset => this.cache(
             this.AssetType[asset.assetType],
             this.DataFormat[asset.dataFormat],

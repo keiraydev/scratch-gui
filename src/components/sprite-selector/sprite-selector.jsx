@@ -34,7 +34,10 @@ const SpriteSelectorComponent = function (props) {
         sprites,
         ...componentProps
     } = props;
+
     let selectedSprite = sprites[selectedId];
+    console.log(selectedSprite);
+    
     let spriteInfoDisabled = false;
     if (typeof selectedSprite === 'undefined') {
         selectedSprite = {};

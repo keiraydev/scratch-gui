@@ -17,6 +17,7 @@ const StageComponent = props => {
         isColorPicking,
         ...boxProps
     } = props;
+
     return (
         <div>
             <Box

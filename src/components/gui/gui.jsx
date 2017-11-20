@@ -75,9 +75,10 @@ const GUIComponent = props => {
                             onSelect={onTabSelect}
                         >
                             <TabList className={tabClassNames.tabList}>
-                                <Tab className={tabClassNames.tab}>Blocks</Tab>
+                                <Tab className={tabClassNames.tab}>Blocks :D</Tab>
                                 <Tab className={tabClassNames.tab}>Costumes</Tab>
                                 <Tab className={tabClassNames.tab}>Sounds</Tab>
+                                <Tab className={tabClassNames.tab}>Hello</Tab>
                             </TabList>
                             <TabPanel className={tabClassNames.tabPanel}>
                                 <Box className={styles.blocksWrapper}>
@@ -114,6 +115,7 @@ const GUIComponent = props => {
                         <Box className={styles.stageMenuWrapper}>
                             <Controls vm={vm} />
                         </Box>
+                        
                         <Box className={styles.stageWrapper}>
                             <MediaQuery minWidth={layout.fullSizeMinWidth}>{isFullSize => (
                                 <Stage
@@ -124,6 +126,7 @@ const GUIComponent = props => {
                                 />
                             )}</MediaQuery>
                         </Box>
+                        
                         <Box className={styles.targetWrapper}>
                             <TargetPane
                                 vm={vm}

@@ -1,6 +1,56 @@
 [
     {
-        "name": "Abby",
+        "name": "Test",
+        "md5": "NewTux.svg",
+        "type": "sprite",
+        "tags": [
+            "transportation",
+            "flying",
+            "city",
+            "photo",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            1
+        ],
+        "json": {
+            "objName": "Test obj",
+            "sounds": [
+                {
+                    "soundName": "pop",
+                    "soundID": -1,
+                    "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+                    "sampleCount": 258,
+                    "rate": 11025,
+                    "format": ""
+                }
+            ],
+            "costumes": [
+                {
+                    "costumeName": "test",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "NewTux.svg",
+                    "rotationCenterX": 100,
+                    "rotationCenterY": 32
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 10,
+            "scratchY": 0,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+
+    {
+        "name": "Abby:D",
         "md5": "7319bc0d839f613172afaa0bb822f0ad.svg",
         "type": "sprite",
         "tags": [

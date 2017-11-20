@@ -46,6 +46,14 @@
                     "bitmapResolution": 1,
                     "rotationCenterX": 47,
                     "rotationCenterY": 55
+                },
+                {
+                    "costumeName": "costume3",
+                    "baseLayerID": 2,
+                    "baseLayerMD5": "NewTux.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 47,
+                    "rotationCenterY": 55
                 }],
             "currentCostumeIndex": 0,
             "scratchX": 0,

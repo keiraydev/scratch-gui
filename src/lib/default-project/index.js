@@ -8,6 +8,7 @@ import backdrop from '!buffer-loader!./739b5e2a2435f6e1ec2993791b423146.png';
 import penLayer from '!buffer-loader!./5c81a336fab8be57adc039a8a2b33ca9.png';
 import costume1 from '!raw-loader!./09dc888b0b7df19f70d81588ae73420e.svg';
 import costume2 from '!raw-loader!./3696356a03a8d938318876a593572843.svg';
+import costume3 from '!raw-loader!./NewTux.svg';
 /* eslint-enable import/no-unresolved */
 
 const encoder = new TextEncoder();
@@ -46,4 +47,10 @@ export default [{
     assetType: 'ImageVector',
     dataFormat: 'SVG',
     data: encoder.encode(costume2)
-}];
+}, {
+    id: 'NewTux',
+    assetType: 'ImageVector',
+    dataFormat: 'SVG',
+    data: encoder.encode(costume3)
+}
+];

@@ -249,11 +249,11 @@ class Stage extends React.Component {
         } = this.props;
         return (
             <StageComponent
-                canvasRef={this.setCanvas}
-                colorInfo={this.state.colorInfo}
-                onDoubleClick={this.handleDoubleClick}
-                {...props}
-            />
+            canvasRef={this.setCanvas}
+            colorInfo={this.state.colorInfo}
+            onDoubleClick={this.handleDoubleClick}
+            {...props}
+        />
         );
     }
 }
